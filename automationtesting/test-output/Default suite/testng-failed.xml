@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testautomationtesting.LOGINTESTS">
+      <class name="testautomationtesting.globalsqa">
         <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="FailedTc"/>
-          <include name="loginTest"/>
+          <include name="keyboardAndMouseActions"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- testautomationtesting.LOGINTESTS -->
+      </class> <!-- testautomationtesting.globalsqa -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
