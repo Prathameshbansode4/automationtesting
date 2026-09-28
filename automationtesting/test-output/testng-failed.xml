@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testautomationtesting.globalsqa">
+      <class name="testautomationtesting.demoqa2">
         <methods>
-          <include name="keyboardAndMouseActions"/>
-          <include name="closeBrowser"/>
+          <include name="da"/>
         </methods>
-      </class> <!-- testautomationtesting.globalsqa -->
+      </class> <!-- testautomationtesting.demoqa2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
